@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin("http://localhost:9999")
+@CrossOrigin("https://clientaqualic.herokuapp.com")
 @RestController
 @RequestMapping("/api")
 public class LoginController {
